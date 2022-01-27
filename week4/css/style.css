@@ -6,7 +6,7 @@
 body {
     background-color:rgb(92, 117, 94);
     font-size: 25px;
-    color:rgb(169, 125, 93)
+    color:rgba(169, 125, 93, 1)
 }
 
 .openinglinks {
@@ -17,14 +17,15 @@ body {
     color:rgba(85, 172, 172, 1);
 }
 
-header, footer {
+.page {
     background-color: rgb(235, 230, 195);
     font-family: 'Bitter', serif;
+    max-width: 960px;
+    margin:1rem auto;
 }
 
 .heropicture > picture > img {
     width:100%;
-    object-fit: cover;
 }
 
 h1 {
@@ -37,4 +38,7 @@ h1 {
  p, a, figcaption {
     color:rgb(169, 125, 93);
     text-align:center
+ }
+ .grid {
+     width:100%;
  }
