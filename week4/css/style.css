@@ -9,12 +9,29 @@ body {
     color:rgba(169, 125, 93, 1)
 }
 
+header {
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+nav a {
+    display: block;
+    padding: 1;
+    
+}
+ul {
+    list-style: none;
+    display: flex;
+   
+
+}
 .openinglinks {
     margin:auto;
     border-style: solid;
-    width: 15%;
     text-align: center;
     color:rgba(85, 172, 172, 1);
+    display:block;
+    padding: 1rem;
+
 }
 
 .page {
