@@ -2,11 +2,14 @@
     margin:0;
     padding:0;
 }
-
+#logo {
+    padding:1rem 0 0 1.5rem;
+}
 body {
     background-color:rgb(92, 117, 94);
     font-size: 25px;
-    color:rgba(169, 125, 93, 1)
+    color:rgba(169, 125, 93, 1);
+
 }
 
 header {
@@ -29,7 +32,7 @@ ul {
     text-align: center;
     color:rgba(85, 172, 172, 1);
     display:block;
-    padding: 1rem;
+    padding: 1rem,1.5rem;
 
 }
 figure > img,image > img {
@@ -83,19 +86,7 @@ p {
     padding-left: .5rem;
  }
 
- #alignright {
-     text-align:right;
-     padding-right: 65px;
-     padding-bottom: 30px;
+ figure {
+     padding:1rem;
  }
-
- #alignleft {
-    padding-bottom: 30px;
-}
-
-#aligncenter {
-    padding-bottom: 30px;
-    text-align: center;
-    
-}
     
