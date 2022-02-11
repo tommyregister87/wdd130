@@ -38,6 +38,8 @@
   }
   /* Activity 2 Styles */
   .content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     position:realtive;
     /* Activity Two Container */
   }
@@ -68,26 +70,33 @@
   /* Activity 3 Styles */
   .content3 {
     /* Activity Three Container */
+    display: grid;
+    
   }
   .red3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: red;
+    grid-column: 1/3;
   }
   .green3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: green;
+    justify-items: ;
+   
   }
   .yellow3 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: gold;
+    
   }
   .blue3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: blue;
+    grid-column: 1/3;
   }
   /* Activity 4 Styles */
   .content4 {
@@ -95,24 +104,25 @@
     height: 400px;
   }
   .red4 {
-    width: 100px;
+    width: 50%;
     height: 100px;
     background-color: red;
   }
   .green4 {
-    width: 100px;
+    width: 50%;
     height: 100px;
     background-color: green;
   }
   .yellow4 {
-    width: 100px;
+    width: 50%;
     height: 100px;
     background-color: gold;
   }
   .blue4 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 100%;
     background-color: blue;
+    justify-content: right;
   }
   /* Activity 5 Styles */
   .content5 {
