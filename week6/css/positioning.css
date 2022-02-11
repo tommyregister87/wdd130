@@ -38,9 +38,8 @@
   }
   /* Activity 2 Styles */
   .content2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    position:realtive;
+  
+  
     /* Activity Two Container */
   }
   .red2 {
@@ -53,19 +52,22 @@
     width: 100px;
     height: 100px;
     background-color: green;
-    position: absolute top: 40px; left: 40px;
+    position: relative;
+    top: -40px; left: 40px;
   }
   .yellow2 {
     width: 100px;
     height: 100px;
     background-color: gold;
-    position: absolute top: 40px; left: 40px;
+    position: relative;
+    top: -80px; left: 80px;
   }
   .blue2 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    position: absolute top: 40px; left: 40px;
+    position: relative;
+    top: -120px; left: 120px;
   }
   /* Activity 3 Styles */
   .content3 {
@@ -83,7 +85,7 @@
     width: 200px;
     height: 200px;
     background-color: green;
-    justify-items: ;
+    justify-items:left;
    
   }
   .yellow3 {
@@ -122,7 +124,7 @@
     width: 50%;
     height: 100%;
     background-color: blue;
-    justify-content: right;
+    align-self: right;
   }
   /* Activity 5 Styles */
   .content5 {
