@@ -1,17 +1,12 @@
 /* WDD 130 Positioning Activity */
 /* Activity 1 Styles */
-* {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  box-sizing: border-box;
-  grid-gap: 20px;
-  justify-items: center;
-}
 .content1 {
     /* Activity One Container */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    grid-gap: 20px;
+    justify-items: center;
     
   }
   .red1 {
@@ -82,16 +77,18 @@
     grid-column: 1/3;
   }
   .green3 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: green;
     justify-items:left;
+    margin-right: 50px;
    
   }
   .yellow3 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: gold;
+    margin-left:50px;
     
   }
   .blue3 {
