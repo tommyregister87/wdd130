@@ -100,7 +100,7 @@
   /* Activity 4 Styles */
   .content4 {
     /* Activity Four Container */
-  
+  position:relative
   }
   .red4 {
     width: 50%;
@@ -122,6 +122,8 @@
     height: 100%;
     background-color: blue;
     align-self: right;
+    position:absolute;
+    left: 300px;
   }
   /* Activity 5 Styles */
   .content5 {
