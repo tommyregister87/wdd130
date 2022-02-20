@@ -37,6 +37,11 @@ ul {
     padding: .75rem;
 
 }
+
+.openinglinks a:hover {
+    color:rgba(85, 172, 172, 1);
+}
+
 figure > img,image > img {
     box-shadow:0 0 1rem rgb(65, 64, 64);
 }
@@ -49,7 +54,7 @@ figure > img,image > img {
 }
 
 .main {
-    position:relative
+    position:relative;
 }
 .heropicture > picture > img {
     width:98%;
@@ -72,6 +77,10 @@ section {
 
 }
 
+section button:hover {
+    color:rgba(85, 172, 172, 1);
+
+}
 button {
     font-size: 28px;
     font-family: 'Bitter', serif, sans-serif;
@@ -103,20 +112,50 @@ p {
  .grid {
      width:100%;
      margin:auto;
-     padding:2rem
-     
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 28% 28% 33.3%;  
  }
 
- .pricing, .otheractivities {
-     width: 52%;
-     margin:auto;
+ .tripinformation {
+     grid-row: 1/2;
      text-align: center;
-     
- }
- .socials > a{
-    padding-left: .5rem;
+     margin: 0px, 0px, 200px, 0px;
+     padding: 0px;
+    
  }
 
- figure {
-     padding:1rem;
+ .tripinformation > img {
+     grid-column: 2/3;
  }
+
+
+.gallery {
+    grid-row: 2/3;
+    text-align: center;
+    margin: 00px, 0px, 0px, 50px
+    
+}
+
+
+ .otheractivities {
+    grid-row: 3/4;
+    text-align: center;
+ 
+ }
+
+
+ footer {
+    font-family: 'Bitter', serif, sans-serif;
+    padding: 0px 15px 15px 85px;
+    border: solid 5px;
+    background:radial-gradient(rgb(138, 167, 140), rgb(235, 230, 195));
+    color:rgba(85, 172, 172, 1); 
+    
+ }
+ .footernotes {
+    
+ }
+    
+    
+ 
