@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Plan for JH Specialties</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" /
+  </head>
+  <body>
+    <header>
+      <h1>Site Plan</h1>
+      <h2>Thomas Register</h2>
+    </header>
+    <nav>
+      <ul>
+        <li>Site Name</li>
+        <li>Site Purpose and Goals</li>
+        <li>Target Audience</li>
+        <li>Color Scheme</li>
+        <li>Typography</li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h3>Site Name:</h3>
+        <p>JH Specialties </p>
+      </section>
+      <section>
+        <h3>Site Purpose & Goals:</h3>
+        <p>
+          The purpose of this site is to open up an online store for my grandfather art to me sold. There will be catagories depending on the scenery type. With this, I will discuss his experience, display his work, and eventually help post tutorial videos of how to create the pictures yourself. 
+        </p>
+      </section>
+      <section>
+        <h3>Target Audience:</h3>
+        <p>
+          Those looking to buy art, and eventually to help potential atrists themselves.
+        </p>
+      </section>
+      <section>
+        <h3>Color Scheme:</h3>
+        <p>Charcoal Grey and White</p>
+      </section>
+      <section>
+        <h3>Typography:</h3>
+        <p>Helvetica,Arial,sans-serif</p>
+      </section>
+    </main>
+  </body>
+</html>
