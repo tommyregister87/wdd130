@@ -71,8 +71,8 @@ section {
     background:radial-gradient(rgb(138, 167, 140), rgb(235, 230, 195));
     color:rgba(85, 172, 172, 1);
     position:absolute;
-    top:350px;
-    right:280px;
+    top:112px;
+    left:154px;
     box-shadow: 0 0 15px rgba(85, 172, 172, 1);
 
 }
@@ -114,58 +114,69 @@ p {
      margin:auto;
      display: grid;
      grid-template-columns: repeat(2, 1fr);
-     grid-gap: 4px;
+     grid-gap: 20px;
      
  }
 
- .tripheading, .tripparagraph{
+ .tripheading {
      grid-column: 1/2;
      grid-row:1/2;
      text-align: center;
-     margin: 0px 0px 200px 0px;
-     padding: 0px;
+     
  }
 
+ .tripparagraph{
+    grid-column: 1/2;
+    grid-row:1/2;
+    text-align: justify;
+    margin: 60px 40px 40px 20px;
+}
+
+
 .tripinfopic {
-        grid-row: 1/2;
         grid-column: 2/3;
-        text-align: center;
-        margin: 0px 0px 200px 0px;
-        padding: 0px;
+        grid-row: 1/2;
+        margin: 60px 0px 40px 0px;
+
      }
 
-.photoheading, .photoparagragh {
+.photoheading {
     grid-column: 2/3;
-     grid-row: 2/3;
-     text-align: center;
-     margin: 0px 0px 200px 0px;
-     padding: 0px;
+    grid-row: 2/3;
+    text-align: center;
+
+}
+
+.photoparagraph {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify; 
+    margin: 60px 40px 40px 20px; 
+
 }
 
 .photopic {
     grid-column: 1/2;
-     grid-row: 2/3;
-     text-align: center;
-     margin: 0px 0px 200px 0px;
-     padding: 0px;
+    grid-row: 2/3;
+    margin:120px 40px 40px 30px;
+    ;
+    
 }
 
-.otheractivitiesheading, .otheractivitiesparagragh {
-    grid-column: 1/2;
+.otheractivitiesheading {
+    grid-column: 1/4;
      grid-row: 3/4;
      text-align: center;
-     margin: 0px 0px 200px 0px;
-     padding: 0px;
+
 }
 
-.otheractivitiespic {
-    grid-column: 2/3;
-     grid-row: 3/4;
-     text-align: center;
-     margin: 0px 0px 200px 0px;
-     padding: 0px;
+.otheractivitiesparagraph {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: justify;
+    margin: 60px 40px 40px 20px;
+    
 }
-
 
  
 
