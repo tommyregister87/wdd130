@@ -193,7 +193,3 @@ p {
  .footerparagraph {
      grid-column: 1/4;
  }
-
- .foorterlinks {
-     grid-column: 3/6;
- }
