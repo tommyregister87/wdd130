@@ -73,6 +73,7 @@ h4 {
 .wireframe {
     position:absolute;
     left:250px;
+    border: solid 3px;
 }
 
 h4, h5, h6 {
