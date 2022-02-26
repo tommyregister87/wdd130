@@ -1,0 +1,97 @@
+* {
+   padding: 0px;
+}
+header {
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows: .25fr .5fr;
+}
+
+.logo {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+
+h1 {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px auto;
+    max-width: 600px;
+    position: relative;
+}
+h2:before {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 2px;
+    background: #000;
+    position:absolute;
+    right:430px;
+    top:50%;
+    z-index: -2;
+
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 2px;
+    background: #000;
+    position:absolute;
+    left:430px;
+    top:50%;
+    z-index: -2;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    border: solid 3px;
+    margin-top: 55px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+h4 {
+    display: grid;
+    position: relative;
+    
+}
+
+.wireframe {
+    position:absolute;
+    left:250px;
+}
+
+h4, h5, h6 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 650px;
+    
+}
+
+
+hr {
+    width: 1300px;
+    height: 2px;
+    background-color: #000;
+
+}
+.galleryimages > h6 {
+    margin-bottom: 25px;
+}
