@@ -59,6 +59,11 @@ ul {
     position:relative;
 }
 
+.heropicture > h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .heropicture > picture > img {
     width:98%;
     margin: 10px;
@@ -104,7 +109,7 @@ h1 {
 p {
     margin: .25rem;
     padding: 8px;
-    font-size:30px;
+    font-size:25px;
     
     
 }
@@ -204,3 +209,120 @@ p {
  footer > p {
     font-size: 18px;
  }
+
+ .tripheadandpicgrid {
+     display: grid;
+     grid-template-columns:250px 250px 250px;
+     grid-template-rows: 100px;
+     column-gap: 60px;
+     margin: 30px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+ .onedaypic {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: absolute;
+    bottom:30px;
+    left:85px;
+
+}
+
+.onedayhead{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 30px;
+    position: absolute;
+    left:60px;
+}
+
+.twodayspic {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    position: absolute;
+    bottom:45px;
+    left:85px;
+
+}
+
+.twodayshead {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.threedayspic {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    position: absolute;
+    bottom:60px;
+    left:90px;
+
+
+}
+
+.threedayshead {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.tripparagraphgrid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 60px;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.onedayparagraph {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    text-align: justify;
+}
+
+.onedaybutton:hover {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
+    color:rgba(85, 172, 172, 1);
+   
+}
+
+.twodaysparagraph {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    text-align: justify;
+}
+
+.twodaysbutton:hover {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    color:rgba(85, 172, 172, 1);
+}
+
+.threedaysparagraph {
+        grid-column: 3/4;
+        grid-row: 1/4;
+        text-align: justify;
+}
+
+.threedaysbutton:hover {
+        grid-column: 3/4;
+        grid-row: 4/5;
+        text-align: center;
+        color:rgba(85, 172, 172, 1);
+}
