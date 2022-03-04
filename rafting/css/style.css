@@ -338,6 +338,7 @@ p {
     grid-row: 1/2;
     margin-top: 20px;
     box-shadow: 0 0 1rem rgb(65, 64, 64);
+    align-self: center;
 }
 .self {
     grid-column: 1/2;
@@ -385,6 +386,7 @@ p {
     grid-row: 3/4;
     margin-top: 20px;
     box-shadow: 0 0 1rem rgb(65, 64, 64);
+    align-self: center;
 }
 .tyler {
     grid-column: 1/2;
