@@ -324,3 +324,81 @@ p {
         text-align: center;
         color:rgba(85, 172, 172, 1);
 }
+
+.meetourstaffgrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, .75fr);
+        grid-gap: 20px;
+        justify-items: center;
+         margin: 20px;
+}
+.selfpic {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 20px;
+    box-shadow: 0 0 1rem rgb(65, 64, 64);
+}
+.self {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    
+}
+
+.tommyparagraph {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: justify;
+    margin-top: 70px;
+
+}
+
+.danielpic {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 20px;
+    box-shadow: 0 0 1rem rgb(65, 64, 64);
+}
+
+.daniel {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+
+}
+
+.danielparagraph {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: justify;
+    margin-top: 70px;
+
+}
+
+.tylerpic {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 20px;
+    box-shadow: 0 0 1rem rgb(65, 64, 64);
+}
+.tyler {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    
+}
+
+.tylerparagraph {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: justify;
+    margin-top: 70px;
+
+}
