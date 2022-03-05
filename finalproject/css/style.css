@@ -73,7 +73,6 @@ ul {
 }
 
 .page1 {
-    grid-row: 1/2;
     position: absolute;
     left: 525px;
     padding: 10px;
@@ -82,7 +81,6 @@ ul {
 }
 
 .page2 {
-    grid-row: 2/3;
     position: absolute;
     left: 100px;
     top:280px;
@@ -91,7 +89,6 @@ ul {
 }
 
 .page3 {
-    grid-row: 3/4;
     position: absolute;
     top:280px;
     right: 100px;
