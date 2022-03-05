@@ -64,18 +64,40 @@ ul {
     list-style-type: none;
 }
 
-h4 {
-    display: grid;
+.wireframes {
+    display:grid;
     position: relative;
+    width:100%;
+    
+
+}
+
+.page1 {
+    grid-row: 1/2;
+    position: absolute;
+    left: 525px;
+    padding: 10px;
+    border: solid black;
     
 }
 
-.wireframe {
-    position:absolute;
-    left:250px;
-    border: solid 3px;
+.page2 {
+    grid-row: 2/3;
+    position: absolute;
+    left: 100px;
+    top:280px;
+    padding: 10px;
+    border: solid black;
 }
 
+.page3 {
+    grid-row: 3/4;
+    position: absolute;
+    top:280px;
+    right: 100px;
+    padding: 10px;
+    border: solid black;
+}
 h4, h5, h6 {
     font-size: 20px;
     margin-bottom: 0px;
