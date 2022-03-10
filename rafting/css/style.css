@@ -42,10 +42,12 @@ ul {
 }
 
 .phonenumber {
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top:40px;
-    right:280px
+    right:280px;
+    color:rgba(85, 172, 172, 1);
+
     
 }
 
