@@ -41,11 +41,11 @@ ul {
 }
 
 .phonenumber {
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top:40px;
     right:280px;
-    color:rgba(85, 172, 172, 1);
+    color:black
 
     
 }
