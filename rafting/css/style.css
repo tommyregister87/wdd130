@@ -36,7 +36,6 @@ ul {
 }
 .openinglinks {
     text-align: center;
-    color:rgba(85, 172, 172, 1);
     padding: .75rem;
 
 }
@@ -54,7 +53,9 @@ ul {
 .openinglinks a:hover {
     color:rgba(85, 172, 172, 1);
 }
-
+.booklink p{
+    color:rgb(108, 71, 46);
+}
 .grid img {
     box-shadow:0 0 1rem rgb(65, 64, 64);
 }
@@ -115,22 +116,23 @@ h1 {
     margin-bottom:5px;
     font-size: 40px;
     text-align: center;
-    color:rgb(169, 125, 93);
+    color: rgb(108, 71, 46);
 }
 
-h2,h3,h4,h5 {
+h2,h3,h4,h5{
     font-size: 35px;
+    color:rgb(108, 71, 46);
 }
 
 p {
     margin: .25rem;
     padding: 8px;
-    font-size:25px;
-    
+    font-size:25px;    
     
 }
  p, a {
-    color:rgb(169, 125, 93);
+    color: rgb(108, 71, 46);
+
 
  }
  .grid {
