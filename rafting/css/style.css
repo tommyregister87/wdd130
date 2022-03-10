@@ -47,9 +47,14 @@ ul {
     right:280px;
     color:black
 
-    
 }
 
+.phoneicon {
+    position: absolute;
+    top:54px;
+    right:440px;
+
+}
 .openinglinks a:hover {
     color:rgba(85, 172, 172, 1);
 }
