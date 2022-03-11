@@ -17,9 +17,6 @@ header {
     align-items: center;
 }
 
-.grid > p {
-    font-size: 25px;
-}
 .openinglinks a {
     display: block;
     padding: 1.5rem;
@@ -35,7 +32,6 @@ ul {
 
 }
 .openinglinks {
-    text-align: center;
     padding: .75rem;
 
 }
@@ -79,6 +75,7 @@ ul {
 .heropicture > h2 {
     text-align: center;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .heropicture > picture > img {
@@ -158,11 +155,18 @@ p {
      
  }
 
+ .expectations {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
  .tripparagraph{
     grid-column: 1/2;
     grid-row:1/2;
     text-align: justify;
-    align-items: center;
     margin-top: 60px;
 }
 
@@ -178,6 +182,7 @@ p {
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
+    margin-top: 5px;
 
 }
 
@@ -185,7 +190,8 @@ p {
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: justify; 
-    margin-top: 60px;
+    align-self: center;
+    margin-top: 20px;
    
 
 }
@@ -193,7 +199,6 @@ p {
 .photopic {
     grid-column: 1/2;
     grid-row: 2/3;
-    align-items: center;
     margin-left: 20px;
     
     
@@ -210,7 +215,7 @@ p {
     grid-column: 1/4;
     grid-row: 3/4;
     text-align: justify;
-    margin-top: 60px;
+    margin-top: 48px;
    
 
 }
@@ -223,7 +228,6 @@ p {
     padding: 10px;
     border: solid 1px;
     background:radial-gradient(rgb(138, 167, 140), rgb(235, 230, 195));
-    color:rgba(85, 172, 172, 1); 
     align-items: center;
 
 
@@ -237,9 +241,9 @@ p {
  .tripheadandpicgrid {
      display: grid;
      grid-template-columns:250px 250px 250px;
-     grid-template-rows: 100px;
+     grid-template-rows: 50px;
      column-gap: 60px;
-     margin: 30px 10px 10px 10px;
+     margin: 50px 10px 10px 10px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -249,7 +253,7 @@ p {
     grid-column: 1/2;
     grid-row: 1/2;
     position: absolute;
-    bottom:30px;
+    bottom:10px;
     left:85px;
 
 }
@@ -267,8 +271,8 @@ p {
     grid-row: 1/2;
     text-align: center;
     position: absolute;
-    bottom:45px;
-    left:85px;
+    bottom:20px;
+    left:89px;
 
 }
 
@@ -286,8 +290,8 @@ p {
     grid-row: 1/2;
     text-align: center;
     position: absolute;
-    bottom:60px;
-    left:90px;
+    bottom:32px;
+    left:95px;
 
 
 }
@@ -306,14 +310,7 @@ p {
     grid-template-columns: 250px 250px 250px;
     grid-template-rows: 100px 100px 100px;
     column-gap: 60px;
-    margin: 10px;
     justify-content: center;
-
-}
-.expectations {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    text-align: center;
 
 }
 
@@ -326,7 +323,6 @@ p {
 .onedaybutton:hover {
     grid-column: 1/2;
     grid-row: 4/5;
-    text-align: center;
     color:rgba(85, 172, 172, 1);
    
 }
@@ -340,7 +336,6 @@ p {
 .twodaysbutton:hover {
     grid-column: 2/3;
     grid-row: 4/5;
-    text-align: center;
     color:rgba(85, 172, 172, 1);
 }
 
@@ -353,8 +348,6 @@ p {
 .threedaysbutton:hover {
         grid-column: 3/4;
         grid-row: 4/5;
-        text-align: center;
-        align-self: center;
         color:rgba(85, 172, 172, 1);
 }
 
@@ -376,7 +369,6 @@ p {
 .self {
     grid-column: 1/2;
     grid-row: 1/2;
-    text-align: center;
     margin-top: 20px;
     text-decoration: underline;
     
