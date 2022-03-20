@@ -3,40 +3,25 @@
 }
 
 header {
-    display:grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
-    grid-template-rows: .25fr .5fr;
-    position: relative;
+    display:flex;
+    align-content: end;
+    justify-content: center;
 }
 
-.phonenumber {
-    position:absolute;
-    margin-right: 15px;
-    right: .5px;
-    font-family: sans-serif;
-    font-size: 21px;
-}
 
-.phoneicon {
-    position:absolute;
-    right: 175px;
-    top: 24px;
-}
 .logo {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    align-self: end;
+    justify-content: center;
+
     
 }
 
-
 ul {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    display: flex;
+    
     font-family: sans-serif;
     font-size: 23px;
     list-style-type: none;
-    text-align: center;
+   align-items: center;
     margin: 25px auto;
     max-width: 600px;
     position: relative;
