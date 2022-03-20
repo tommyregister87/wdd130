@@ -6,6 +6,8 @@
     <title>Site Plan for JH Specialties</title>
     <meta name="description" content="JH Specialties is a place for art enthusiests to come and not only purchase art at a reasonable price, but to learn from the artist himself. Here, visiters can view a range of oil paint themes all designed and hand painted." />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Bilbo&family=Bitter:wght@300;400&display=swap" rel="stylesheet"/>
@@ -29,6 +31,27 @@
         <p class="slogan">Where nature meets the canvas</p>
         <hr class="sloganbottomline">
       </div>
+      <div class="main-carousel">
+        <div class="cell"><img src="images/pic10.jpg"></div>
+        <div class="cell"><img src="images/pic7.jpg"></div>
+        <div class="cell"><img src="images/pic6.jpg"></div>
+        <div class="cell"><img src="images/pic5.jpg"></div>
+        <div class="cell"><img src="images/pic4.jpg"></div>
+        
+
+      </div>
+
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround:true,
+      freeScroll: true
+    });
+    </script>
     </main>
   </body>
 </html>
