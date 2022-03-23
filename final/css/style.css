@@ -133,7 +133,7 @@ text-align: center;
 .cell {
     
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 25px 15px 22px 32px;
 }
 .cell img {
     width: 100%;
