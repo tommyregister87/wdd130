@@ -223,4 +223,5 @@ footer > p {
     padding:3px;
     align-self: end;
     z-index: 1;
+    text-align: center;
 }
