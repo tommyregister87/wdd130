@@ -87,7 +87,8 @@ ul:after {
     grid-column: 2/3;
     grid-row: 1/2;
     font-size: 80px;
-    gap
+    text-align: center;
+
 }
 
 .welcomepara {
@@ -149,13 +150,77 @@ footer {
        border: solid 2px;
        align-items: center;
    
-   
     }
 
-
-}
 
 footer > p {
    font-size: 18px;
 }
 
+.gallerygrid {
+    display: grid;
+    position: relative;
+    max-width: 100%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows:  535px 250px 535px 250px;
+    grid-gap: 20px;
+    row-gap: 50px;
+    justify-items: center;
+    margin: 20px;
+
+}
+.pic02 {
+    position: absolute;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+
+.pic03 {
+    position: absolute;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.pic04 {
+    position: absolute;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.pic05 {
+    position: absolute;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.pic06 {
+    position: absolute;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.pic07 {
+    position: absolute;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.pic08 {
+    position: absolute;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.pic09 {
+    position: absolute;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.pricing {
+    border: solid black;
+    background-color: rgba(253, 252, 252, 0.7);
+    padding:3px;
+    align-self: end;
+    z-index: 1;
+}
