@@ -256,6 +256,11 @@ footer > p {
     justify-self: center;
 }
 
-.whitespace > p {
-color: white;
+.whitespace {
+    display: grid;
+    position: relative;
+    max-width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows:  100px;
+    
 }
