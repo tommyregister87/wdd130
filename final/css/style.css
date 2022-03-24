@@ -84,7 +84,7 @@ ul:after {
 }
 
 .welcome {
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 1/2;
     font-size: 80px;
     text-align: center;
