@@ -83,12 +83,11 @@ h1 {
     text-align: center;
     background-color: lightgrey;
     grid-column: 2/3;
-    
 
 }
 
 
-    a {
+a {
     text-decoration: none;
     color: black;
 }
