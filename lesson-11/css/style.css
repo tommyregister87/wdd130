@@ -59,7 +59,7 @@ form {
       border-color: #000;
       position:absolute;
       left:100px;
-      background-image: linear-gradient( bottom right, rgb(44, 62, 80), rgb(189, 195, 199)); 
+      background-image: linear-gradient(to bottom right, rgb(44, 62, 80), rgb(189, 195, 199)); 
 
 
   }
