@@ -1,13 +1,14 @@
 
 form {
     margin: 0 auto;
-    width: 400px;
-    height: 300px;
+    width: 430px;
+    height: 380px;
     padding: 1em;
     border: 5px solid black;
     background-color: rgb(132, 209, 149);
     border-radius: 1em;
     position: relative;
+    box-shadow: 0 0 1em black;
   }
   h1 {
     text-align: center;
@@ -63,3 +64,10 @@ form {
 
   }
   
+li {
+  padding-bottom: 20px;
+}
+
+li > button:hover {
+color: rgb(132, 209, 149);
+}
