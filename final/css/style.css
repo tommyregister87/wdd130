@@ -50,6 +50,7 @@
  
  a:hover {
      color: rgb(51, 124, 124);
+     
  }
  
  ul:before {
@@ -316,7 +317,7 @@
      height: 25px;
    }
  
-   button {
+   li > button {
        width:400px;
        font-weight:bold ;
        padding: 10px;
