@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JH Specialties Co</title>
-    <meta name="description" content="The Gallery is the page designed to display paintings with prices labelled on each painting. In addition, links to the site are present including socials." />
+    <meta name="description" content="JH Specialties is a place for art enthusiests to come and not only purchase art at a reasonable price, but to learn from the artist himself. Here, visiters can view a range of oil paint themes all designed and hand painted." />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -20,27 +20,40 @@
     </header>
     <nav class="links">
       <ul>
-        <li><a href="fp.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="#">Reviews</a></li>
       </ul>
     </nav>
     <main>
       <div class="wording">
-        <h1 class="welcome"> About Me</h1> 
+        <h1 class="welcome"> WELCOME!</h1> 
         <p class="welcomepara">to JH Specialties Co.</p>
         <hr class="slogantopline">
         <p class="slogan">Where nature meets the canvas</p>
         <hr class="sloganbottomline">
       </div>
-      <div class="aboutme">
-        <p class="aboutmeparagraph"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo expedita asperiores nihil minus, odit blanditiis sint nulla laudantium quae rem. Optio quo sequi nobis vitae est tempora suscipit reprehenderit assumenda, eius voluptatem similique, provident ut alias quaerat. Minima fugiat dolorum iste nisi illum culpa deserunt rem dignissimos obcaecati saepe. </p>
-        <img src="images/pic1.jpg" class="selfpic" alt="John painting" />
-      
+
+      <div class="main-carousel">
+        <div class="cell"><img src="images/pic04.jpg" alt="pic04"></div>
+        <div class="cell"><img src="images/pic03.jpg" alt="pic03"></div>
+        <div class="cell"><img src="images/pic05.jpg" alt="pic05"></div>
+        <div class="cell"><img src="images/pic06.jpg" alt="pic06"></div>
       </div>
-      <div class="whitespace">
-      </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'left',
+      wrapAround:true,
+      freeScroll: true
+    });
+    </script>
+    
+    <div class="whitespace">
+    </div>
     </main>
+  </body>
   <footer>
     <p class="footerparagraph">© 2022 JH Specialties Co - Register - WDD130</p>
     <a href="http://www.facebook.com">
@@ -50,5 +63,4 @@
     <a href="http://www.youtube.com"> 
       <img src="images/youtubeicon.png" alt="youtube" width="25"></a>
   </footer>
-</body>
 </html>
