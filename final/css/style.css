@@ -170,7 +170,10 @@
      margin: 20px;
  
  }
- 
+ .gallerygrid > img {
+    box-shadow:0 0 .5rem rgb(65 64 64);
+
+ }
  .pic02 {
      position: absolute;
      grid-column: 1/2;
@@ -256,6 +259,7 @@
      grid-column: 1/2;
      align-self: center;
      justify-self: center;
+     box-shadow: 0 0 1rem rgb(65 64 64);
  }
  
  .whitespace {
