@@ -292,7 +292,7 @@
  
    ol {
      list-style: none;
-     padding: 0;
+     padding-bottom: 20px;
    }
    
    .form li + li {
@@ -328,10 +328,7 @@
        color: white;
  
    }
-   
- li {
-   padding-bottom: 20px;
- }
+
  
  li > button:hover {
      position:absolute;
