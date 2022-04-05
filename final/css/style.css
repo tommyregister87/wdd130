@@ -1,5 +1,6 @@
 * {
     padding: 0px;
+    max-width: 1500px;
  }
  
  header {
@@ -127,21 +128,13 @@
      background-color: #000;
  }
  
- .main-carousel {
-     margin-bottom: 20px;
+ .bottomgrid{
+     display: grid;
+     grid-template-columns: repeat(3,auto);
+     justify-content: center;
+     column-gap: 60px;
  }
  
- .cell {
-     
-     overflow: hidden;
-     border-radius: 25px 15px 22px 32px;
- }
- .cell img {
-     width: 100%;
-     height:350px;
-     object-fit:cover;
-     padding: 5px;
- }
  
  footer {
          display: grid;
