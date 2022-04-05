@@ -126,21 +126,7 @@ text-align: center;
     background-color: #000;
 }
 
-.main-carousel {
-    margin-bottom: 20px;
-}
 
-.cell {
-    
-    overflow: hidden;
-    border-radius: 25px 15px 22px 32px;
-}
-.cell img {
-    width: 100%;
-    height:350px;
-    object-fit:cover;
-    padding: 5px;
-}
 
 footer {
         display: grid;
@@ -334,4 +320,31 @@ li > button:hover {
     left:100px;
 width: 250px;
 
+}
+
+
+
+.slide-container {
+    width: 2000px;
+    height:495px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 1956px;
+    height:250px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+
+.slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
 }
